@@ -39,12 +39,24 @@ const Inputone = styled.input`
 `
 const InputWto = styled.input`
     grid-area: thre;
+    width:20px;
+    height: 20px;
+    outline: none;
+    border: none;
 `
 const Inputthre = styled.input`
     grid-area: five;
+    width:20px;
+    height: 20px;
+    outline: none;
+    border: none;
 `
 const Inputfour = styled.input`
     grid-area: seven;
+    width:20px;
+    height: 20px;
+    outline: none;
+    border: none;
 `
 const Hone = styled.h1 `
 grid-area:two ;
