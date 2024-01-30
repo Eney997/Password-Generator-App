@@ -14,6 +14,10 @@ const Gendiv = styled.div`
     position: absolute;
     margin-top: 355px;
     margin-left: 16px;
+    @media (width>768px){
+      margin-top: 400px;
+      margin-left: 32px;
+    }
 `
 const Genbut = styled.button`
 width: 311px;
@@ -23,6 +27,11 @@ background: var(--Neon-Green, #A4FFAF);
 border: none;
 outline: none;
 cursor: pointer;
+
+@media (width>768px){
+  width: 476px;
+  height: 65px;
+}
 `
 
 const Genspan = styled.span`

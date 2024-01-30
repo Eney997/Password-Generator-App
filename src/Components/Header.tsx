@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <Tavi>
         <Tavieihi>Password Generator</Tavieihi>
-        <TaviInput name="getterPass" type="text" maxLength={15}></TaviInput>
+        <TaviInput placeholder="Your Password" disabled name="getterPass" type="text" maxLength={15}></TaviInput>
         <CpImg src={copyImg}/>
     </Tavi>
   )
@@ -26,6 +26,10 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+
+@media (width>768px){
+  font-size: 24px;
+}
 `
 const TaviInput = styled.input`
 color: var(--Almost-White, #E6E5EA);
@@ -43,9 +47,19 @@ background:  #24232C;
 outline: none;
 border: none;
 padding-left: 5px;
+
+@media (width>768px){
+  width: 540px;
+  height: 80px;
+}
 `
 const CpImg = styled.img`
     margin-left: 300px;
     margin-top: -66px;
     cursor: pointer;
+    
+  @media (width>768px){
+   margin-left: 475px;
+   margin-top: -85px;
+}
 `

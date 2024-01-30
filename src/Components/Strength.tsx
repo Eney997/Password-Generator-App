@@ -20,6 +20,12 @@ const Strdiv = styled.div`
     background: #18171F;
     display: flex;
     margin-left: 16px;
+
+    @media (width>768px){
+      width: 476px;
+      height: 72px;
+      margin-left: 32px;
+    }
 `
 const Strdivhone = styled.h1`
 color: var(--Grey, #817D92);
@@ -32,6 +38,12 @@ font-weight: 700;
 line-height: normal;
 margin-left: 25px;
 margin-top: 16px;
+
+@media (width>768px){
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 23px;
+  }
 `
 const StrImg = styled.img `
 width: 63.5px;
@@ -39,4 +51,9 @@ height: 28px;
 margin-left: 230px;
 margin-top: 11px;
 position: absolute;
+
+@media (width>768px){
+  margin-left: 380px;
+  margin-top: 20px;
+  }
 `

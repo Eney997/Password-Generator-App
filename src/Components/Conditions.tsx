@@ -4,13 +4,13 @@ import styled from "styled-components"
 const Conditions = () => {
   return (
     <Sdiv>
-    <Inputone type="checkbox"></Inputone>
+    <Inputone name="firs" type="checkbox"></Inputone>
     <Hone>Include Uppercase Letters</Hone>
-    <InputWto type="checkbox"></InputWto>
+    <InputWto name="sec" type="checkbox"></InputWto>
     <Htwo>Include Lowercase Letters</Htwo>
-    <Inputthre type="checkbox"></Inputthre>
+    <Inputthre name="third" type="checkbox"></Inputthre>
     <Hthre>Include Numbers</Hthre>
-    <Inputfour type="checkbox"></Inputfour>
+    <Inputfour name="four" type="checkbox"></Inputfour>
     <Hfour>Include Symbols</Hfour>
     </Sdiv>
   )
@@ -29,6 +29,10 @@ grid-template-areas:'one two'
 column-gap: 20px;
 row-gap: 15px;
 margin-left: 16px;
+
+@media (width>768px){
+  margin-left: 32px;
+}
 `
 const Inputone = styled.input`
     grid-area: one;

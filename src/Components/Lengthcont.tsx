@@ -19,6 +19,11 @@ flex-shrink: 0;
 background: #24232C;
 margin-top: 16px;
 
+@media (width>768px){
+width: 540px;
+height: 528px;
+}
+
 `
 const Mainhone = styled.h1`
 color: var(--Almost-White, #E6E5EA);
@@ -31,6 +36,10 @@ line-height: normal;
 position: absolute;
 margin-top: 21px;
 margin-left: 16px;
+
+@media (width>768px){
+ margin-left: 32px;
+}
 `
 const Mainhsec = styled.h2`
 color: var(--Neon-Green, #A4FFAF);
@@ -43,6 +52,9 @@ line-height: normal;
 margin-left: 290px;
 position: absolute;
 margin-top: 10px;
+@media (width>768px){
+ margin-left: 472px;
+}
 `
 const Sliderinput = styled.input`
  background: #18171F;
@@ -52,4 +64,8 @@ flex-shrink: 0;
 position: absolute;
 margin-top: 80px;
 margin-left: 16px;
+@media (width>768px){
+  width: 476px;
+  margin-left: 32px;
+}
 `
