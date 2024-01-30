@@ -1,6 +1,7 @@
 import Globalstyle from "./Components/Globalstyle"
 import Header from "./Components/Header"
 import Lengthcont from "./Components/Lengthcont"
+import Cnditions from "./Components/Conditions"
 
 function App() {
   
@@ -8,7 +9,9 @@ function App() {
   return (
     <>
     <Header/>
-    <Lengthcont/>
+    <Lengthcont>
+      <Cnditions/>
+    </Lengthcont>
     <Globalstyle/>
     </>
   )
