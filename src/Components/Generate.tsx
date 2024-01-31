@@ -5,6 +5,7 @@ const Generate = () => {
     <Gendiv>
         <Genbut><Genspan>GENERATE</Genspan></Genbut>
     </Gendiv>
+    //ara aq ar unda eg
   )
 }
 
